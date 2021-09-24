@@ -13,6 +13,7 @@ const margin = { top: 20, right: 20, bottom: 20, left: 80 },
   height = fullHeight - margin.top - margin.bottom;
 
 const x = scaleLinear().range([0, width]);
+console.log("commit 2nd on develop")
 
 const y = scaleLinear().range([0, height]);
 
