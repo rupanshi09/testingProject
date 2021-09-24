@@ -15,7 +15,7 @@ export default function calculatePayments(
   let baseline = initial;
   let payments = [{ overpayment: 0, balance, baseline }];
   let partial;
-
+console.log("commit 1 on develop")
   for (let year = 0; year < years; year++) {
     let interestYearly = 0;
     let overpaymentYearly = 0;

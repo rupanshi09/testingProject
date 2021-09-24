@@ -9,6 +9,7 @@ import calculate from './calculations';
 const defaultOverpayment = { month: '1', year: '0', amount: '0' };
 
 export default () => {
+  console.log("commit 1 on develop")
   const [initial, setInitial] = useState('200000');
   const [rate, setRate] = useState('5');
   const [years, setYears] = useState('25');
