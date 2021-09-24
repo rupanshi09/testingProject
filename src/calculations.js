@@ -17,6 +17,7 @@ export default function calculatePayments(
   let partial;
 console.log("commit 1 on develop")
   for (let year = 0; year < years; year++) {
+    console.log("commit 1 on desktop")
     let interestYearly = 0;
     let overpaymentYearly = 0;
     for (let month = 1; month <= 12; month++) {
